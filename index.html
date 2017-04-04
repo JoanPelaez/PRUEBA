@@ -1,24 +1,52 @@
 <!DOCTYPE html>
-<html lang="es">
 
-<head>
-<meta charset="utf-8"/>
-<meta description="Fase de Construccion">
-<title>Fase de Construccion</title>
-<link rel="stylesheet" type="text/css" href="css/estilos.css">
-</head>
-<body>
-		<h1>Titulo del proyecto</h1>
-		
-<header>
-    <nav>
-      <ul>
-        <li><a href="#Inicio">Inicio</a></li>
-        <li><a href="#Lecturas">Lecturas</a></li>
-        <li> <a href="#Multimedia">Material Multimedia</a></li>
-      </ul>
-    </nav>
-</header>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur..</p>
-</body>
+<html lang="es">
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="description" content="Descripción del sitio">
+        <title>Mi primera página</title>
+        <link rel="stylesheet" type="estilos/css" href="css/estilos.css">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    </head>
+
+    <body>
+<!--Cabecera de la página:-->
+            <h1>Este es el título de mi web</h1>
+     
+        <header>
+            <figure>
+               <!--Logo del sitio Web-->  
+                Aquí va nuestro logo
+<!--Título de la imagen:-->
+                <figcaption>Título de nuestro logo</figcaption>
+            </figure>
+        </header>
+<!--Menú:-->
+        <nav>
+            Aquí va nuestro menú
+        </nav>
+<!--Sección de contenido. <section> y <article> definen un área única de contenido:-->
+        <section id="contenedor">
+<!--Para que el encabezado principal <h1> no pierda relevancia, utilizamos <hgroup> para agregar un nuevo--> 
+           <h1>
+            <hgroup>
+                <h1>Mi encabezado secundario</h1>
+                <h2>Este es un subencabezado de tipo h2</h2>
+            </hgroup>
+            <article>
+                Este es un artículo de contenido
+                <section id="principal">
+                    Esta es otra sección dentro de un artículo
+                </section>
+            </article>
+            <aside>
+            	Publicidad
+            </aside>
+        </section>
+<!--Pie de pagina:-->
+        <footer>
+            Mensaje en el pie de pagina
+        </footer>
+    </body>
 </html>
