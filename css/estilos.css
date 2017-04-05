@@ -8,15 +8,16 @@
 	src: url("");
 }no utilizare fuentes*/
 body{
-	background: #212121;
-	color: #160;
+	background: #333333;
+	color: #ffffff;
 	font-family: verdana,helvetica;
 	
 }
 h1{
-	color: #F60;
+	color: #ffffff;
 	margin: 0.25em auto;
-	text-align: center;
+	text-align: right;
+	max-width: 1100px;
 	text-shadow: 5px 5px 5px #051EFF;
 	-webkit-text-shadow: 5px 5px 5px #051EFF;
 	-ms-text-shadow: 5px 5px 5px #051EFF;
@@ -24,7 +25,7 @@ h1{
 	-moz-text-shadow: 5px 5px 5px #051EFF;
 }
 header,nav,footer{
-	background: #1E6381;
+	background: #005883;
 	border-radius: 0.5em;
 	margin: 0.5em auto;
 	max-width: 960px;
@@ -34,34 +35,41 @@ section#contenedor{
 	margin: 0.5px auto;
 	max-width: 960px;
 	padding: 0;
-	background: #500;
+	background: #808080;
 	text-align: center;
 	border-radius: 0.5em;
 
 
 }
-section#principal,aside{
-	background: #069;
+section#principal,aside,div{
+	background: #f47920;
 	border-radius: 0.5em;
 	display: inline-block;
 	margin: 0.2em auto;
 	max-width: 960px;
 	min-height: 200px;
 	vertical-align: top;
-	width: 35%;
+	width: 100%;
 
 }
 article{
-	background: #011E30;
+	background: #005883;
 	border-radius: 0.5em;
 	min-height: 140px;
 	padding: 0.25em;
+	text-align: justify;
 }
 aside{
-	width: 30%;
+	width: 100%;
 }
 nav{
 	text-align: left;
-	
+	background: #f0b429
 
+}
+figure{
+	text-align: left;
+}
+footer{
+	text-align: right;
 }
