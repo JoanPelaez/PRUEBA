@@ -1,0 +1,75 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/*@font-face{
+	font-family: 'Chalet';
+	src: url("");
+}no utilizare fuentes*/
+body{
+	background: #333333;
+	color: #ffffff;
+	font-family: verdana,helvetica;
+	
+}
+h1{
+	color: #ffffff;
+	margin: 0.25em auto;
+	text-align: right;
+	max-width: 1100px;
+	text-shadow: 5px 5px 5px #051EFF;
+	-webkit-text-shadow: 5px 5px 5px #051EFF;
+	-ms-text-shadow: 5px 5px 5px #051EFF;
+	-o-text-shadow: 5px 5px 5px #051EFF;
+	-moz-text-shadow: 5px 5px 5px #051EFF;
+}
+header,nav,footer{
+	background: #005883;
+	border-radius: 0.5em;
+	margin: 0.5em auto;
+	max-width: 960px;
+	text-align: center;
+}
+section#contenedor{
+	margin: 0.5px auto;
+	max-width: 960px;
+	padding: 0;
+	background: #808080;
+	text-align: center;
+	border-radius: 0.5em;
+
+
+}
+section#principal,aside,div{
+	background: #f47920;
+	border-radius: 0.5em;
+	display: inline-block;
+	margin: 0.2em auto;
+	max-width: 960px;
+	min-height: 200px;
+	vertical-align: top;
+	width: 100%;
+
+}
+article{
+	background: #005883;
+	border-radius: 0.5em;
+	min-height: 140px;
+	padding: 0.25em;
+	text-align: justify;
+}
+aside{
+	width: 100%;
+}
+nav{
+	text-align: left;
+	background: #f0b429
+
+}
+figure{
+	text-align: left;
+}
+footer{
+	text-align: right;
+}
