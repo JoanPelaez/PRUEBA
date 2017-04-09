@@ -70,6 +70,11 @@ nav{
 	text-align: left;
 	background: #005883;
 	padding-left: 5px;
+	width: 1000px;
+	height: 70px;
+	border: solid;
+	border-color: #ffffff;
+	border-radius-left: 10;
 }
 figure{
 	text-align: left;
@@ -79,6 +84,22 @@ footer{
 	text-align: right;
 	padding-right: 5px;
 }
+ul{
+	margin: auto;
+	padding-top: 4px;
+	
+}
+li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+	margin: 4px;
+	
+}
+
 a {
 	color: #ffffff;
+	text-decoration: none;
+	font-size: 20px;
+
 }
