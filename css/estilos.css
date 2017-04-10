@@ -103,6 +103,11 @@ a {
 iframe{
 	border: solid;
 }
+video{
+	margin: auto;
+	width: 900px;
+	height: 900px;
+}
 footer{
 	text-align: right;
 	padding-right: 5px;
