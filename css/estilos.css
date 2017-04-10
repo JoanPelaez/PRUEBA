@@ -80,10 +80,7 @@ figure{
 	text-align: left;
 	color: #005883;
 }
-footer{
-	text-align: right;
-	padding-right: 5px;
-}
+
 ul{
 	margin: auto;
 	padding-top: 4px;
@@ -102,4 +99,16 @@ a {
 	text-decoration: none;
 	font-size: 20px;
 
+}
+iframe{
+	border: solid;
+}
+footer{
+	text-align: right;
+	padding-right: 5px;
+	margin: auto;
+	border: solid;
+	border-color: #ffffff;
+	font-size: 25px;
+	font-variant: small-caps;
 }
